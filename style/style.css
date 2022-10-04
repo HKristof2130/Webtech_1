@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    color: #552583 ;
+}
+
+body > header > h1{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.navbar{
+    list-style: none;
+    background-color: #FDB927;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.navbar > li {
+    float: left;
+    margin-left: 120px;
+}
+
+.navbar > li > a {
+    display: block;
+    height: max-content;
+    background-color: #FDB927;
+    font-size: 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 190px;
+    
+}
+
+.navbar > li > a:hover{
+    background-color: #552583;
+    color: #FDB927;
+}
+
+#introduction{
+    margin-top: 45px;
+    font-size: 25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width:  60%;
+    height: 80%;
+    float: right;
+}
+
+article{
+    font-size: 24px;
+    
+}
+
+table,td,th{
+    border: 4px solid #FDB927;
+    border-collapse: collapse;
+    text-align: center;
+    color: #FDB927;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    height: 35%;
+}
+
+th{
+    background-color: #552583;
+    font-size: 25px;
+}
+
+td{
+    background-color: #552583;
+    font-size: 20px;
+}
+
+.highlightButton{
+    background-color: #FDB927;
+    border: 3px solid #552583;
+    border-radius: 3px;
+}
+
+.higlightButton > a :visited{
+    color: #552583;
+}
+
+.higlightButton > a{
+    color: #552583;
+    height: 25px;
+    width: auto;
+    text-decoration: none;
+    
+}
+
+#highlightSection{
+    font-size: 23px;
+}
