@@ -86,20 +86,30 @@ td{
     background-color: #FDB927;
     border: 3px solid #552583;
     border-radius: 3px;
+    text-decoration: none;
 }
 
-.higlightButton > a :visited{
+.highlightButton > a:link {
     color: #552583;
-}
-
-.higlightButton > a{
-    color: #552583;
-    height: 25px;
-    width: auto;
+    height: 45px;
+    width: 50px;
     text-decoration: none;
     
 }
 
+.highlightButton > a :visited{
+    color: #552583;
+    text-decoration: none;
+}
+
 #highlightSection{
     font-size: 23px;
+}
+
+#importantRB{
+    margin-left: 20px;
+}
+
+#lbjFan{
+    margin-left: 70px
 }
