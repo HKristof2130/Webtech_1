@@ -38,14 +38,13 @@ function checkFormValidity() {
         date.innerText = "Birth date:"
     }
 
-    if(lbjFan.checked == true){
-        let cb = "Lebron James fan";
+    const jsonString = {
+        "name" : `${nameInput.value}`,
+        "birth_date" : `${dateInput.value}`,
+        "important" : `${importantInput.checked}`,
+        "lebron_fan" : `${lbjFan.checked}`
     }
-    else{
-        let cb = "Not a Lebron James fan";
-    }
 
-
-
-    console.log(nameInput.value,dateInput.value,importantInput.value,lbjFan.value);
+    const data = JSON.stringify(jsonString);
+    console.log(nameInput.value,dateInput.value,importantInput.checked,lbjFan.checked);
 }
