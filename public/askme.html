@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <script src="../src/form.js" defer></script>
     <title>Ask a question</title>
     <style>
-        div{
+        div {
             margin-top: 60px;
             margin-left: 50px;
             border: 10px solid #FDB927;
@@ -15,25 +16,32 @@
             font-size: 20px;
             padding: 10px;
         }
-        input{
+
+        input {
             margin-top: 8px;
             margin-bottom: 5px;
             background-color: #FDB927;
             color: #552583;
             font-size: 20px;
         }
-        submit{
+
+        submit {
             margin-left: 50px;
             background-color: #FDB927;
-            color: #552583 ;
+            color: #552583;
             font-size: 15px;
             border: 4px solid #552583;
             border-radius: 10px;
-            width: 60px ;
+            width: 60px;
         }
 
+        textarea{
+            background-color: #FDB927;
+            color: #552583;
+        }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -58,20 +66,26 @@
 
         </ul>
     </header>
-    
+
     <div>
         <form id="targetForm">
             <span id="formName">Name:</span><br>
             <input id="nameInput" type="text"><br>
             <span id="formDate">Birth date:</span><br>
             <input id="dateInput" type="date"><br>
+            <span id="text">Message: </span><br><br>
+            <textarea id="textBox" rows="5" cols="30"></textarea><br><br>
             <span>Important</span>&nbsp;&nbsp;
             <span>I'm a Lebron fan</span><br>
             <input id="importantRB" type="radio">
             <input id="lbjFan" type="checkbox"><br><br>
+
             <submit id="sendButton">Send</submit>
+
+
         </form>
-        
+
     </div>
 </body>
+
 </html>
